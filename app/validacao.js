@@ -3,7 +3,6 @@ function verificaSeOChutePossuiValorValido(chute){
     const numero = +chute;
 
     if(chuteForInvalido(numero)){
-        elementoChute.innerHTML += '<div>Valor inválido</div>';
 
         if (chute.toUpperCase() === "GAME OVER") {
 
